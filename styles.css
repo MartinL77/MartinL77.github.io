@@ -184,6 +184,27 @@ nav,
     color: #242424;
 }
 
+.mail__image {
+    height: 30px;
+    width: 30px;
+    margin-top: 7px;
+}
+
+.darkmode__image {
+    height: 40px;
+    width: 40px;
+
+    @media screen and (max-width: 600px) {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+.social__icon {
+    height: 25px;
+    width: 25px;
+}
+
 /* 
 
 LANDING PAGE
@@ -219,14 +240,14 @@ LANDING PAGE
     background-color: #6495ed;
     color: white;
     padding: 6px;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     font-size: 14px;
-    margin-right: 12px;
+    margin-right: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 30%;
 }
 
 .mail__btn {
@@ -306,6 +327,7 @@ nav {
 
 .nav__link--list {
     display: flex;
+    align-items: center;
 }
 
 .nav__link {
